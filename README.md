@@ -1,8 +1,8 @@
 # tiles
-Snippet to animate blocks in a grid using CSS and JavaScript
+Snippet to animate blocks
 
 CSS Grid to layout blocks
 
-CSS and JavaScript to rotate and shrink blocks then return blocks
+CSS and JavaScript to rotate and shrink blocks then rotate blocks
 to their initial state
 
