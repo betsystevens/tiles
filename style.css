@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 4rem;
+}
+
+h2.hide {
+  display: none;
+}
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(6,1fr);
+  width: 400px;
+  font-size: 4rem;
+}
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  transition: all 2.5s;
+}
+.tile:nth-child(odd) {
+  background-color: #90dfb9;
+}
+.tile:nth-child(even) {
+  background-color: #d7ecc9;
+}
+.spinOut {
+  /*transform: rotate(720deg) scale(0,0);*/
+  transform: rotate(720deg) scale(.05,.05);
+  /*transform: rotate(720deg) scale(.25,.25);*/
+}
